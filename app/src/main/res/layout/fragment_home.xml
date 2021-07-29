@@ -8,6 +8,17 @@
     tools:context=".MainActivity">
 
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
     <ImageButton
         android:id="@+id/S1001"
         android:layout_width="95dp"
@@ -70,6 +81,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/S1002"
         app:layout_constraintTop_toTopOf="@+id/S1002" />
+
 
 
 
@@ -163,13 +175,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/gone" />
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/oxygen_mono"
+        android:onClick="logout"
+        android:text="Log Out"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-    <FrameLayout
-        android:id="@+id/fragment_container_"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:onClick="handleSelection"></FrameLayout>
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

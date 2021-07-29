@@ -2,12 +2,12 @@ package com.example.pivot;
 
 public class Song {
 
-    private String id;
-    private String title;
-    private String artists;
-    private String fileLink;
-    private double songLength;
-    private int drawable;
+    public String id;
+    public String title;
+    public String artists;
+    public String fileLink;
+    public double songLength;
+    public int drawable;
 
     public Song(String id, String title, String artists, String fileLink, double songLength, int drawable ){
         this.id = id;

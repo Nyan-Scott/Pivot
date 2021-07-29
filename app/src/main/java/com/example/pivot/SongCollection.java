@@ -10,13 +10,13 @@ public class SongCollection {
 
         Song stressedOut = new Song("S1001",
                 "Stressed Out",
-                "Twenty One Pilots",
+                "Twenty One Pilot",
                 "https://p.scdn.co/mp3-preview/0e0951b811f06fea9162eb7e95e4bae4802d97af?cid=2afe87a64b0042dabf51f37318616965",
                 3.37,
                 R.drawable.stressed_out);
 
 
-        Song redBone = new Song("S1002",
+        Song redbone = new Song("S1002",
                 "Redbone",
                 "Childish Gambino",
                 "https://p.scdn.co/mp3-preview/0167089f98ed9b52156232cc17294c7676a88dd4?cid=2afe87a64b0042dabf51f37318616965",
@@ -24,8 +24,8 @@ public class SongCollection {
                 R.drawable.redbone);
 
 
-        Song doIWannaKnow = new Song("S1003",
-                "Do I Wanna Know",
+        Song doIwannaKnow = new Song("S1003",
+                "Do I Wanna Know?",
                 "Arctic Monkeys",
                 "https://p.scdn.co/mp3-preview/73e00a0a59c897b16d0fe30df43f7aeb2997079d?cid=2afe87a64b0042dabf51f37318616965",
                 4.54,
@@ -33,14 +33,16 @@ public class SongCollection {
 
         Song gone = new Song("S1004",
                 "Gone",
-                "Rosé",
+                "ROSÉ",
                 "https://p.scdn.co/mp3-preview/fa0669783e655baa57d009a7060618a96d8639f1?cid=2afe87a64b0042dabf51f37318616965",
-                3.45, R.drawable.gone);
+                3.95, R.drawable.gone);
+
+
 
 
         songs[0] = stressedOut;
-        songs[1] = redBone;
-        songs[2] = doIWannaKnow;
+        songs[1] = redbone;
+        songs[2] = doIwannaKnow;
         songs[3] = gone;
 
 
